@@ -20,9 +20,9 @@ import (
 	fuse "bazil.org/fuse"
 	fs "bazil.org/fuse/fs"
 	cid "github.com/ipfs/go-cid"
+	iface "github.com/ipfs/go-libipfs/coreiface"
 	logging "github.com/ipfs/go-log"
 	mfs "github.com/ipfs/go-mfs"
-	iface "github.com/ipfs/interface-go-ipfs-core"
 	options "github.com/ipfs/interface-go-ipfs-core/options"
 )
 

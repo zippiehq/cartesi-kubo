@@ -10,9 +10,9 @@ import (
 	cmdenv "github.com/ipfs/kubo/core/commands/cmdenv"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
+	iface "github.com/ipfs/go-libipfs/coreiface"
 	unixfs "github.com/ipfs/go-unixfs"
 	unixfs_pb "github.com/ipfs/go-unixfs/pb"
-	iface "github.com/ipfs/interface-go-ipfs-core"
 	options "github.com/ipfs/interface-go-ipfs-core/options"
 	path "github.com/ipfs/interface-go-ipfs-core/path"
 )

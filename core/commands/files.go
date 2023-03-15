@@ -20,11 +20,11 @@ import (
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	offline "github.com/ipfs/go-ipfs-exchange-offline"
 	ipld "github.com/ipfs/go-ipld-format"
+	iface "github.com/ipfs/go-libipfs/coreiface"
 	logging "github.com/ipfs/go-log"
 	dag "github.com/ipfs/go-merkledag"
 	mfs "github.com/ipfs/go-mfs"
 	ft "github.com/ipfs/go-unixfs"
-	iface "github.com/ipfs/interface-go-ipfs-core"
 	path "github.com/ipfs/interface-go-ipfs-core/path"
 	mh "github.com/multiformats/go-multihash"
 )

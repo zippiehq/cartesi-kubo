@@ -21,9 +21,9 @@ import (
 	blockstore "github.com/ipfs/go-ipfs-blockstore"
 	pi "github.com/ipfs/go-ipfs-posinfo"
 	blocks "github.com/ipfs/go-libipfs/blocks"
+	coreiface "github.com/ipfs/go-libipfs/coreiface"
 	"github.com/ipfs/go-libipfs/files"
 	dag "github.com/ipfs/go-merkledag"
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
 	config "github.com/ipfs/kubo/config"
 )
 

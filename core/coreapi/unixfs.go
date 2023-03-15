@@ -18,6 +18,7 @@ import (
 	filestore "github.com/ipfs/go-filestore"
 	bstore "github.com/ipfs/go-ipfs-blockstore"
 	ipld "github.com/ipfs/go-ipld-format"
+	coreiface "github.com/ipfs/go-libipfs/coreiface"
 	"github.com/ipfs/go-libipfs/files"
 	merkledag "github.com/ipfs/go-merkledag"
 	dagtest "github.com/ipfs/go-merkledag/test"
@@ -25,7 +26,6 @@ import (
 	ft "github.com/ipfs/go-unixfs"
 	unixfile "github.com/ipfs/go-unixfs/file"
 	uio "github.com/ipfs/go-unixfs/io"
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
 	options "github.com/ipfs/interface-go-ipfs-core/options"
 	path "github.com/ipfs/interface-go-ipfs-core/path"
 )

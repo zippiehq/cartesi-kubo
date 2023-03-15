@@ -9,10 +9,10 @@ import (
 
 	cid "github.com/ipfs/go-cid"
 	"github.com/ipfs/go-libipfs/blocks"
+	iface "github.com/ipfs/go-libipfs/coreiface"
 	"github.com/ipfs/go-libipfs/files"
 	"github.com/ipfs/go-libipfs/gateway"
 	"github.com/ipfs/go-namesys"
-	iface "github.com/ipfs/interface-go-ipfs-core"
 	options "github.com/ipfs/interface-go-ipfs-core/options"
 	nsopts "github.com/ipfs/interface-go-ipfs-core/options/namesys"
 	"github.com/ipfs/interface-go-ipfs-core/path"

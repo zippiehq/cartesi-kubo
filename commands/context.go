@@ -11,8 +11,8 @@ import (
 	loader "github.com/ipfs/kubo/plugin/loader"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
+	coreiface "github.com/ipfs/go-libipfs/coreiface"
 	logging "github.com/ipfs/go-log"
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
 	options "github.com/ipfs/interface-go-ipfs-core/options"
 	config "github.com/ipfs/kubo/config"
 )

@@ -13,9 +13,9 @@ import (
 	cidenc "github.com/ipfs/go-cidutil/cidenc"
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	offline "github.com/ipfs/go-ipfs-exchange-offline"
+	coreiface "github.com/ipfs/go-libipfs/coreiface"
 	dag "github.com/ipfs/go-merkledag"
 	verifcid "github.com/ipfs/go-verifcid"
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
 	options "github.com/ipfs/interface-go-ipfs-core/options"
 	"github.com/ipfs/interface-go-ipfs-core/path"
 

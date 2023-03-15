@@ -14,9 +14,9 @@ import (
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-fetcher"
 	ipld "github.com/ipfs/go-ipld-format"
+	coreiface "github.com/ipfs/go-libipfs/coreiface"
 	ipfspath "github.com/ipfs/go-path"
 	ipfspathresolver "github.com/ipfs/go-path/resolver"
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
 	path "github.com/ipfs/interface-go-ipfs-core/path"
 )
 

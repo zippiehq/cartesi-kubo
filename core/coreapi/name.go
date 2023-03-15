@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
+	coreiface "github.com/ipfs/go-libipfs/coreiface"
 	ipath "github.com/ipfs/go-path"
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
 	caopts "github.com/ipfs/interface-go-ipfs-core/options"
 	nsopts "github.com/ipfs/interface-go-ipfs-core/options/namesys"
 	path "github.com/ipfs/interface-go-ipfs-core/path"

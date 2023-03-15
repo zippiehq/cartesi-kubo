@@ -17,8 +17,8 @@ import (
 
 	datastore "github.com/ipfs/go-datastore"
 	syncds "github.com/ipfs/go-datastore/sync"
+	iface "github.com/ipfs/go-libipfs/coreiface"
 	path "github.com/ipfs/go-path"
-	iface "github.com/ipfs/interface-go-ipfs-core"
 	nsopts "github.com/ipfs/interface-go-ipfs-core/options/namesys"
 	config "github.com/ipfs/kubo/config"
 	ci "github.com/libp2p/go-libp2p/core/crypto"

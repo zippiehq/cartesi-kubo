@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
+	coreiface "github.com/ipfs/go-libipfs/coreiface"
 	caopts "github.com/ipfs/interface-go-ipfs-core/options"
 	"github.com/ipfs/kubo/tracing"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"

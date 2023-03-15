@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sort"
 
+	coreiface "github.com/ipfs/go-libipfs/coreiface"
 	ipfspath "github.com/ipfs/go-path"
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
 	caopts "github.com/ipfs/interface-go-ipfs-core/options"
 	path "github.com/ipfs/interface-go-ipfs-core/path"
 	"github.com/ipfs/kubo/tracing"

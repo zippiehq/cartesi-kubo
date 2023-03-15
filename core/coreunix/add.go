@@ -14,6 +14,7 @@ import (
 	pin "github.com/ipfs/go-ipfs-pinner"
 	posinfo "github.com/ipfs/go-ipfs-posinfo"
 	ipld "github.com/ipfs/go-ipld-format"
+	coreiface "github.com/ipfs/go-libipfs/coreiface"
 	"github.com/ipfs/go-libipfs/files"
 	logging "github.com/ipfs/go-log"
 	dag "github.com/ipfs/go-merkledag"
@@ -22,7 +23,6 @@ import (
 	"github.com/ipfs/go-unixfs/importer/balanced"
 	ihelper "github.com/ipfs/go-unixfs/importer/helpers"
 	"github.com/ipfs/go-unixfs/importer/trickle"
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
 	"github.com/ipfs/interface-go-ipfs-core/path"
 
 	"github.com/ipfs/kubo/tracing"
