@@ -17,10 +17,10 @@ import (
 
 	"github.com/blang/semver/v4"
 	"github.com/google/uuid"
-	u "github.com/ipfs/boxo/util"
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	"github.com/ipfs/go-ipfs-cmds/cli"
 	cmdhttp "github.com/ipfs/go-ipfs-cmds/http"
+	u "github.com/ipfs/go-ipfs-util"
 	logging "github.com/ipfs/go-log"
 	ipfs "github.com/ipfs/kubo"
 	"github.com/ipfs/kubo/cmd/ipfs/util"
