@@ -13,7 +13,7 @@ require (
 	github.com/elgris/jsondiff v0.0.0-20160530203242-765b5c24c302
 	github.com/facebookgo/atomicfile v0.0.0-20151019160806-2de1f203e7d5
 	github.com/fsnotify/fsnotify v1.6.0
-	github.com/google/uuid v1.3.1
+	github.com/google/uuid v1.4.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/ipfs-shipyard/nopfs v0.0.12-0.20231027223058-cde3b5ba964c
 	github.com/ipfs-shipyard/nopfs/ipfs v0.13.2-0.20231027223058-cde3b5ba964c
@@ -49,7 +49,7 @@ require (
 	github.com/libp2p/go-doh-resolver v0.4.0
 	github.com/libp2p/go-libp2p v0.32.1
 	github.com/libp2p/go-libp2p-http v0.5.0
-	github.com/libp2p/go-libp2p-kad-dht v0.24.4
+	github.com/libp2p/go-libp2p-kad-dht v0.25.1
 	github.com/libp2p/go-libp2p-kbucket v0.6.3
 	github.com/libp2p/go-libp2p-pubsub v0.10.0
 	github.com/libp2p/go-libp2p-pubsub-router v0.6.0
@@ -86,9 +86,9 @@ require (
 	go.uber.org/zap v1.26.0
 	golang.org/x/crypto v0.14.0
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
-	golang.org/x/mod v0.13.0
+	golang.org/x/mod v0.14.0
 	golang.org/x/sync v0.4.0
-	golang.org/x/sys v0.13.0
+	golang.org/x/sys v0.14.0
 	google.golang.org/protobuf v1.31.0
 )
 
@@ -116,7 +116,7 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.1 // indirect
 	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
-	github.com/go-logr/logr v1.2.4 // indirect
+	github.com/go-logr/logr v1.3.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
@@ -131,7 +131,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
 	github.com/hannahhoward/go-pubsub v0.0.0-20200423002714-8d62886cc36e // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
-	github.com/hashicorp/golang-lru v0.5.4 // indirect
+	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/huin/goupnp v1.3.0 // indirect
 	github.com/ipfs/bbloom v0.0.4 // indirect
@@ -151,7 +151,7 @@ require (
 	github.com/ipfs/go-verifcid v0.0.2 // indirect
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/klauspost/compress v1.17.2 // indirect
-	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.6 // indirect
 	github.com/koron/go-ssdp v0.0.4 // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
 	github.com/libp2p/go-cidranger v1.1.0 // indirect
@@ -169,7 +169,7 @@ require (
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.4 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
+	github.com/matttproud/golang_protobuf_extensions/v2 v2.0.0 // indirect
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/miekg/dns v1.1.56 // indirect
 	github.com/mikioh/tcpinfo v0.0.0-20190314235526-30a79bb1804b // indirect
@@ -204,7 +204,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/polydawn/refmt v0.89.0 // indirect
 	github.com/prometheus/client_model v0.5.0 // indirect
-	github.com/prometheus/common v0.44.0 // indirect
+	github.com/prometheus/common v0.45.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/prometheus/statsd_exporter v0.22.7 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
@@ -241,12 +241,12 @@ require (
 	go.uber.org/mock v0.3.0 // indirect
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
 	golang.org/x/net v0.17.0 // indirect
-	golang.org/x/oauth2 v0.8.0 // indirect
+	golang.org/x/oauth2 v0.12.0 // indirect
 	golang.org/x/term v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/tools v0.14.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
-	gonum.org/v1/gonum v0.13.0 // indirect
+	gonum.org/v1/gonum v0.14.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4 // indirect
 	google.golang.org/grpc v1.55.0 // indirect

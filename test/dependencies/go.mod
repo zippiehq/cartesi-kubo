@@ -78,7 +78,7 @@ require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/fzipp/gocyclo v0.6.0 // indirect
 	github.com/go-critic/go-critic v0.9.0 // indirect
-	github.com/go-logr/logr v1.2.4 // indirect
+	github.com/go-logr/logr v1.3.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/go-toolsmith/astcast v1.1.0 // indirect
@@ -93,7 +93,6 @@ require (
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
 	github.com/gofrs/flock v0.8.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/golangci/check v0.0.0-20180506172741-cfe4005ccda2 // indirect
 	github.com/golangci/dupl v0.0.0-20180902072040-3e9179ac440a // indirect
 	github.com/golangci/go-misc v0.0.0-20220329215616-d24fe342adfe // indirect
@@ -106,7 +105,7 @@ require (
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/google/pprof v0.0.0-20231023181126-ff6d637d2a7b // indirect
-	github.com/google/uuid v1.3.1 // indirect
+	github.com/google/uuid v1.4.0 // indirect
 	github.com/gordonklaus/ineffassign v0.0.0-20230610083614-0e73809eb601 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/gostaticanalysis/analysisutil v0.7.1 // indirect
@@ -118,7 +117,7 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
-	github.com/hashicorp/golang-lru v0.5.4 // indirect
+	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hexops/gotextdiff v1.0.3 // indirect
@@ -152,7 +151,7 @@ require (
 	github.com/kisielk/gotool v1.0.0 // indirect
 	github.com/kkHAIKE/contextcheck v1.1.4 // indirect
 	github.com/klauspost/compress v1.17.2 // indirect
-	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.6 // indirect
 	github.com/koron/go-ssdp v0.0.4 // indirect
 	github.com/kulti/thelper v0.6.3 // indirect
 	github.com/kunwardeep/paralleltest v1.0.8 // indirect
@@ -164,7 +163,7 @@ require (
 	github.com/libp2p/go-cidranger v1.1.0 // indirect
 	github.com/libp2p/go-flow-metrics v0.1.0 // indirect
 	github.com/libp2p/go-libp2p-asn-util v0.3.0 // indirect
-	github.com/libp2p/go-libp2p-kad-dht v0.24.4 // indirect
+	github.com/libp2p/go-libp2p-kad-dht v0.25.1 // indirect
 	github.com/libp2p/go-libp2p-kbucket v0.6.3 // indirect
 	github.com/libp2p/go-libp2p-record v0.2.0 // indirect
 	github.com/libp2p/go-libp2p-routing-helpers v0.7.3 // indirect
@@ -182,7 +181,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
+	github.com/matttproud/golang_protobuf_extensions/v2 v2.0.0 // indirect
 	github.com/mbilski/exhaustivestruct v1.2.0 // indirect
 	github.com/mgechev/revive v1.3.2 // indirect
 	github.com/miekg/dns v1.1.56 // indirect
@@ -219,7 +218,7 @@ require (
 	github.com/polyfloyd/go-errorlint v1.4.3 // indirect
 	github.com/prometheus/client_golang v1.17.0 // indirect
 	github.com/prometheus/client_model v0.5.0 // indirect
-	github.com/prometheus/common v0.44.0 // indirect
+	github.com/prometheus/common v0.45.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/quasilyte/go-ruleguard v0.4.0 // indirect
 	github.com/quasilyte/gogrep v0.5.0 // indirect
@@ -288,14 +287,14 @@ require (
 	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
 	golang.org/x/exp/typeparams v0.0.0-20230307190834-24139beb5833 // indirect
-	golang.org/x/mod v0.13.0 // indirect
+	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sync v0.4.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/sys v0.14.0 // indirect
 	golang.org/x/term v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/tools v0.14.0 // indirect
-	gonum.org/v1/gonum v0.13.0 // indirect
+	gonum.org/v1/gonum v0.14.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
