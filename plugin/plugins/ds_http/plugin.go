@@ -18,7 +18,6 @@ func (p *HttpPlugin) Version() string {
 }
 
 func (p *HttpPlugin) Init(env *plugin.Environment) error {
-	fmt.Println("plugin loaded!!")
 	return nil
 }
 
