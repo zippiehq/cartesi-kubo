@@ -1,8 +1,6 @@
 package httpdatastore
 
 import (
-	"fmt"
-
 	"github.com/ipfs/kubo/plugin"
 	"github.com/ipfs/kubo/repo/fsrepo"
 )
