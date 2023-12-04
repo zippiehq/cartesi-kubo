@@ -30,7 +30,7 @@ type BaseBlocks blockstore.Blockstore
 func BaseBlockstoreCtor(cacheOpts blockstore.CacheOpts, nilRepo bool, hashOnRead bool) func(mctx helpers.MetricsCtx, repo repo.Repo, lc fx.Lifecycle) (bs BaseBlocks, err error) {
 	return func(mctx helpers.MetricsCtx, repo repo.Repo, lc fx.Lifecycle) (bs BaseBlocks, err error) {
 		// hash security
-		bs = blockstore.NewBlockstore(repo.Datastore())
+		bs = blockstore.NewBlockstore(repo.Datastore(), blockstore.WriteThrough())
 		bs = &verifbs.VerifBS{Blockstore: bs}
 
 		if !nilRepo {
@@ -45,7 +45,6 @@ func BaseBlockstoreCtor(cacheOpts blockstore.CacheOpts, nilRepo bool, hashOnRead
 		if hashOnRead { // TODO: review: this is how it was done originally, is there a reason we can't just pass this directly?
 			bs.HashOnRead(true)
 		}
-
 		return
 	}
 }
