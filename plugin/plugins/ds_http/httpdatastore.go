@@ -66,7 +66,6 @@ func (h *HttpDatastore) Push(ctx context.Context, prefix ds.Key) error {
 }
 
 func (h *HttpDatastore) Put(ctx context.Context, key ds.Key, value []byte) error {
-	fmt.Println("put")
 	cidV1, err := dshelp.DsKeyToCidV1(key, cid.DagProtobuf)
 	if err != nil {
 		return fmt.Errorf("failed to convert key to CID: %v", err)
@@ -91,8 +90,6 @@ func (h *HttpDatastore) Put(ctx context.Context, key ds.Key, value []byte) error
 		body, _ := ioutil.ReadAll(resp.Body)
 		return fmt.Errorf("server responded with an error: %v, body: %s", resp.Status, string(body))
 	}
-
-	fmt.Printf("PUT request successful for key: %s with CIDv1: %s\n", key, cidStr)
 	return nil
 }
 
@@ -116,7 +113,6 @@ func (h *HttpDatastore) Get(ctx context.Context, key ds.Key) (value []byte, err 
 		return nil, fmt.Errorf("server responded with an error: %v, body: %s", resp.Status, string(body))
 	}
 
-	fmt.Printf("GET request successful for key: %s with CIDv1: %s\n", key, cidStr)
 	return ioutil.ReadAll(resp.Body)
 }
 
@@ -147,7 +143,5 @@ func (h *HttpDatastore) Has(ctx context.Context, key ds.Key) (bool, error) {
 	if resp.StatusCode != http.StatusOK && resp.StatusCode != http.StatusNotFound {
 		return false, fmt.Errorf("unexpected HTTP status code: %d", resp.StatusCode)
 	}
-	fmt.Printf("CIDV1: %s exists: %t\n", cidV1, exists)
-
 	return exists, nil
 }
